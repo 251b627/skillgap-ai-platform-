@@ -1,0 +1,35 @@
+export const initialCollaborations = [
+  {
+    collaboration_id: 'collab-1',
+    company_id: 'comp-1',
+    institution_id: 'inst-1',
+    collaboration_type: 'Campus Placement & R&D Lab',
+    start_date: '2025-01-01',
+    end_date: '2027-12-31',
+    status: 'Active',
+    description: 'Joint research laboratory for high-throughput distributed systems and direct talent pipeline for undergraduate engineers.',
+    created_at: '2025-01-02T10:00:00.000Z',
+  },
+  {
+    collaboration_id: 'collab-2',
+    company_id: 'comp-2',
+    institution_id: 'inst-1',
+    collaboration_type: 'AI Curriculum Modernization',
+    start_date: '2025-02-01',
+    end_date: '2026-06-30',
+    status: 'Active',
+    description: 'Co-designing practical semester curriculum on Large Language Models, Prompt Tuning, and AI safety benchmarks.',
+    created_at: '2025-01-04T12:00:00.000Z',
+  },
+  {
+    collaboration_id: 'collab-3',
+    company_id: 'comp-3',
+    institution_id: 'inst-2',
+    collaboration_type: 'FinTech Internship Drive',
+    start_date: '2025-01-15',
+    end_date: '2026-01-15',
+    status: 'Active',
+    description: 'Annual recruitment and summer fellowship program for high-performing computing students.',
+    created_at: '2025-01-05T14:00:00.000Z',
+  }
+];
